@@ -1,3 +1,5 @@
+<script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous">
+</script>
 <!DOCTYPE html>
 <html lang="pt-br">
   <head>
@@ -14,6 +16,7 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
+    
     <div id="container">
       <div id="profile">
         <img
@@ -75,8 +78,24 @@
     <script
       nomodule
       src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
-    ></script>
-
+    >
+      
+  </script>
     <script src="./script.js"></script>
+<script>
+  $("document").ready()
+  //$("body").fadeOut(0)
+  //$("body").fadeIn(1000)
+
+  $("li:nth(0)").fadeOut(1);
+  $("li:nth(0)").fadeIn(800);
+  $("li:nth(1)").fadeOut(1);
+  $("li:nth(1)").fadeIn(1600);
+  $("li:nth(2)").fadeOut(1);
+  $("li:nth(2)").fadeIn(2400);
+
+  $("#social-links").fadeOut(1)
+  $("#social-links").fadeIn(3800)
+</script>
   </body>
 </html>
